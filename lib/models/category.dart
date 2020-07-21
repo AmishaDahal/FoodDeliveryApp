@@ -1,0 +1,12 @@
+import 'package:flutter/cupertino.dart';
+
+class Category{
+ 
+  final String name;
+  final String image;
+  const Category({@required
+    this.name,
+    this.image,
+    
+  }) ;
+}
